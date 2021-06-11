@@ -51,7 +51,7 @@ body{
     
 }
 .result > h1{
-    font-size: 23px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
 }
@@ -91,7 +91,7 @@ body{
         background-color: rgba(169, 169, 169, 0.452);
     }
     .result > h1{
-        font-size: 15px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }

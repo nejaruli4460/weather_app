@@ -12,6 +12,9 @@ btn.addEventListener('click', function() {
         if(data.cod==404)
         {
             cityName.innerHTML=data.message;
+            descr.innerHTML="data not found";
+            minTemp.innerHTML="data not found";
+            maxTemp.innerHTML="data not found" ;
         }
         else{
 
