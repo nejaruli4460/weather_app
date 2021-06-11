@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="weather">
+
+        <div class="container">
+            <form onsubmit="return false">
+                <input class="input" type="text" placeholder="Enter a city name..."></input>
+                <button class="btn" type="submit">submit</button>
+    
+            </form>
+        </div>
+        <div class="result">
+            <h1 class="city"></h1>
+            <h1 class="des"> </h1>
+            <h1 class="min-temp"> </h1><h1 class="max-temp"> </h1>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

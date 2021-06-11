@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.212)),url(https://miro.medium.com/max/4800/1*GsImz-edoeuqCMfKxDus0w.jpeg);
+    background-size: cover;
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+.container .input{
+    height: 38px;
+    width: 500px;
+    padding-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.container .btn{
+    width: 80px;
+    height: 46px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:active{
+    background-color: grey;
+    border: 1px solid red;
+}
+.btn:hover{
+    cursor: pointer;
+    color:thistle
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 10px;
+    width: 400px;
+    position: relative;
+    left: 35%;
+    border-radius: 50%;
+    height: 400px;
+    justify-content: center;
+    background-color: rgba(169, 169, 169, 0.452);
+    
+}
+.result > h1{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+.result .des{
+    text-transform: uppercase;
+
+}
+@media (min-width:250px) and (max-width:900px) {
+    .container .input{
+        height: 38px;
+        width: 200px;
+        padding-left: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+    }
+    .container .btn{
+        width: 80px;
+        height: 46px;
+        background-color: red;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    .result{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        font-size: 10px;
+        width: 250px;
+        position: relative;
+        border-radius: 50%;
+        left: 14%;
+        height: 250px;
+        justify-content: center;
+        background-color: rgba(169, 169, 169, 0.452);
+    }
+    .result > h1{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-size:100% 200%;
+    }
+}
